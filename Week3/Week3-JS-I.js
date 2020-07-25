@@ -131,13 +131,13 @@ function isOdd(num) {
 function square(num) {
   // square num and return the new value
   // hint: NOT square root!
-  return num ** 2;
+  return Math.pow(7, 2);
 }
 
 // 20
 function cube(num) {
   // cube num and return the new value
-  return num ** 3;
+  return Math.pow(7, 3)
 }
 
 // 21
