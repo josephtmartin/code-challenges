@@ -55,7 +55,6 @@ function divide(x, y) {
   // divide x by y and return the value
   return x / y;
 }
-
 // 12
 function areEqual(x, y) {
   // return true if x and y are the same
@@ -110,7 +109,7 @@ function getRemainder(x, y) {
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  if (num % 0) {
+  if (num % 2 == 0) {
     return true;
   } else {
     return false;
@@ -121,10 +120,10 @@ function isEven(num) {
 function isOdd(num) {
   // return true if num is odd
   // otherwise return false
-  if (num % 1) {
-    return true;
-  } else {
+  if (num % 2 == 0) {
     return false;
+  } else {
+    return true;
   }
 }
 
@@ -170,14 +169,14 @@ function addExclamationPoint(str) {
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'NSS', 'Bootcamp' -> 'NSS Bootcamp'
-  return `${firstName} + " " + ${lastName}`
+  return `${firstName} ${lastName}`;
 }
 
 // 26
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  return `"Hello" + " " + ${name}`
+  return `Hello ${name}`;
 }
 
 // The next three questions will have you implement math area formulas.
@@ -192,5 +191,5 @@ function getRectangleArea(length, width) {
 // 28
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  return base * height / 2;
+  return (base * height) / 2;
 }
