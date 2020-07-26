@@ -143,7 +143,7 @@ function cube(num) {
 // 21
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  return num ** exponent;
+  return Math.pow(num,exponent);
 }
 
 // 22
