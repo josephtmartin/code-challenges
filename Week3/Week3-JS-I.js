@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
 //In these first 6 questions, replace `null` with the answer
 
 //1. create a string variable, it can contain anything
-const newString = "Hello World!";
+const newString = 'Hello World!';
 
 //2. create a number variable, it an be any number
 const newNum = 9000;
@@ -137,7 +137,7 @@ function square(num) {
 // 20
 function cube(num) {
   // cube num and return the new value
-  return Math.pow(7, 3)
+  return Math.pow(7, 3);
 }
 
 // 21
@@ -162,7 +162,7 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  return str + "!";
+  return str + '!';
 }
 
 // 25
